@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>CBL Interpreter</title>
+  </head>
+  <body>
+    <textarea id="ci">
+      s main
+      fs 0
+      cs print Hello, World!
+      cs kill
+    </textarea>
+    <div id="co">
+      Hello, World!
+    </div>
+    <script>
+      const ci = document.getElementById("ci");
+      const co = document.getElementById("co");
+    </script>
+  </body>
